@@ -40,6 +40,10 @@ export default {
     ...mapState(['todos']),
     ...mapGetters(['doneTodoCount'])
   },
+  created () {
+    debugger
+    this.$message('info', 'hello', 2000)
+  },
   methods: {
     addTodo (e) {
       if (e.keyCode === 13 && this.model.desc) {

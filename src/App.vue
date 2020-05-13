@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
+      <router-link to="/">TodoApp</router-link> |
       <router-link to="/word">word</router-link> |
-      <router-link to="/">TodoApp</router-link>
+      <router-link to="/message">message组件</router-link>
     </div>
     <router-view/>
   </div>
